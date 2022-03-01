@@ -245,6 +245,10 @@ img {
   height: 100%;
 }
 
+.article {
+  margin-bottom: 120px;
+}
+
 .article__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -254,15 +258,11 @@ img {
           justify-content: space-between;
 }
 
-.article__text-wrapper {
+.article__col {
   width: 45%;
 }
 
-.article__img-wrapper {
-  width: 45%;
-}
-
-.article__header1 {
+.article__header {
   text-align: center;
   margin-bottom: 90px;
 }
