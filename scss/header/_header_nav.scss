@@ -1,0 +1,22 @@
+.header__nav{
+    background-color: #26BEFF;
+    padding: 50px 64px;
+}
+
+.nav__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__link{
+    margin-right: 63px;
+    &:last-child{
+        margin-right: 0;
+    }
+}
+
+.header__logo-wrapper{
+    width: 100px;
+}
+
