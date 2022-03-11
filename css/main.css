@@ -265,6 +265,7 @@ img {
 .article__header {
   text-align: center;
   margin-bottom: 90px;
+  color: #26BEFF;
 }
 
 .p_container_article1 {
@@ -300,39 +301,67 @@ img {
   margin-top: -200px;
 }
 
-.article3__header1 {
+.card__title {
   text-align: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .dance__card {
-  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
   width: 275px;
   background-color: #c9c9c9;
   margin-left: 60px;
   color: black;
+  padding: 15px;
 }
 
 .article3__header2 {
   text-align: center;
 }
 
-.article3_dance_p1 {
-  margin-top: 30px;
-  margin-left: 10px;
+.card__text {
+  margin-bottom: 20px;
 }
 
-.article3_dance_button {
+.card__button {
   height: 50px;
   width: 150px;
   background-color: #555;
   border-radius: 50%;
-  margin-top: 30px;
-  margin-left: 55px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.card__button:hover {
+  background-color: black;
+  color: white;
 }
 
 .dance_button_text {
   text-align: center;
+}
+
+.article__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
